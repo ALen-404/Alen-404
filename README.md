@@ -5,14 +5,15 @@
 ```javascript
 const aboutMe = {
    pronouns: "he",
-   code: [Javascript, Typescript, HTML, CSS, Flutter, Solidity],
+   code: [Javascript, Typescript, HTML, CSS, Solidity],
+   chains: [evm, solana],
    technologies: {
       frontEnd: {
          js: ["React", "Vue"],
          css: ["Materialize", "Element", "Bootstrap", "Material Design", "Ant Design"]
       },
       backEnd: {
-         js: ["Node", "Express"]
+         js: ["Node", "JAVA"]
       },
       databases: ["MongoDB", "mySQL", "SQLServer"]
    },
