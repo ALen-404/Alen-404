@@ -1,0 +1,81 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Alen profile banner</title>
+  <desc id="desc">A dark futuristic GitHub profile banner for Alen, highlighting full-stack engineering, AI applications, and Web3 systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#0B1022"/>
+      <stop offset="1" stop-color="#031B1E"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1015 110) rotate(140) scale(420 260)">
+      <stop stop-color="#36F7FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#36F7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 330) rotate(-20) scale(430 230)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="strokeGradient" x1="186" y1="84" x2="1094" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#57F7FF"/>
+      <stop offset="0.48" stop-color="#8A7CFF"/>
+      <stop offset="1" stop-color="#41FF9C"/>
+    </linearGradient>
+    <filter id="softShadow" x="-80" y="-80" width="1440" height="580" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="32"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.020 0 0 0 0 0.043 0 0 0 0 0.114 0 0 0 0.62 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1" result="shape"/>
+    </filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#background)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#grid)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#cyanGlow)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#violetGlow)"/>
+
+  <g opacity="0.75">
+    <path d="M1015 63L1162 149L1160 318L1012 389L866 303L869 135L1015 63Z" stroke="#5FFBFF" stroke-opacity="0.22"/>
+    <path d="M1016 103L1126 168L1124 296L1013 350L903 286L905 158L1016 103Z" stroke="#8A7CFF" stroke-opacity="0.32"/>
+    <circle cx="1015" cy="224" r="56" stroke="#41FF9C" stroke-opacity="0.42"/>
+    <path d="M958 224H1072M1015 167V281" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="78" y="72" width="1124" height="276" rx="28" fill="#08111F" fill-opacity="0.72" stroke="url(#strokeGradient)" stroke-opacity="0.48"/>
+    <rect x="100" y="94" width="1080" height="232" rx="20" fill="#0B1220" fill-opacity="0.52" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  </g>
+
+  <g transform="translate(134 126)">
+    <text x="0" y="30" fill="#8EF9FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="6">ALEN-404</text>
+    <text x="0" y="104" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">Full-Stack Engineer</text>
+    <text x="0" y="151" fill="#B7C3D8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="500">AI Applications • Web3 Systems • Scalable Products</text>
+
+    <g transform="translate(0 190)">
+      <rect x="0" y="0" width="164" height="42" rx="21" fill="#102235" stroke="#5FFBFF" stroke-opacity="0.35"/>
+      <text x="24" y="27" fill="#D9FCFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">AI Agents</text>
+
+      <rect x="184" y="0" width="164" height="42" rx="21" fill="#161E3A" stroke="#8A7CFF" stroke-opacity="0.4"/>
+      <text x="208" y="27" fill="#EEE9FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">DApps</text>
+
+      <rect x="368" y="0" width="190" height="42" rx="21" fill="#0F2A20" stroke="#41FF9C" stroke-opacity="0.38"/>
+      <text x="392" y="27" fill="#DFFFEF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">Cloud APIs</text>
+    </g>
+  </g>
+
+  <g transform="translate(814 128)">
+    <rect x="0" y="0" width="274" height="166" rx="20" fill="#050A14" fill-opacity="0.7" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="24" y="42" fill="#6DFBFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">const builder = {</text>
+    <text x="42" y="72" fill="#E6EDFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">stack: "end-to-end",</text>
+    <text x="42" y="102" fill="#E6EDFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">ai: "native",</text>
+    <text x="42" y="132" fill="#E6EDFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">web3: "production"</text>
+    <text x="24" y="156" fill="#6DFBFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">};</text>
+  </g>
+
+  <path d="M94 367C229 316 322 383 461 342C587 305 644 265 778 288C915 312 1017 353 1186 303" stroke="url(#strokeGradient)" stroke-opacity="0.36" stroke-width="2"/>
+</svg>
