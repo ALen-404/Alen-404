@@ -1,4 +1,4 @@
-![Header](https://user-images.githubusercontent.com/98303994/163760731-4ba5e9d9-7dce-4e87-a23b-5d18feb54d1.png)
+![Alen profile banner](./assets/profile-banner.svg)
 
 <h1 align="center">Alen</h1>
 
